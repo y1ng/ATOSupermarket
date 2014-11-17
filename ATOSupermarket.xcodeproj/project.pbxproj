@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EEA13D1A19CCBE0050DA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA13C1A19CCBE0050DA07 /* Foundation.framework */; };
+		06EEA13F1A19CCBE0050DA07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA13E1A19CCBE0050DA07 /* CoreGraphics.framework */; };
+		06EEA1411A19CCBE0050DA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA1401A19CCBE0050DA07 /* UIKit.framework */; };
+		06EEA1471A19CCBE0050DA07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EEA1451A19CCBE0050DA07 /* InfoPlist.strings */; };
+		06EEA1491A19CCBE0050DA07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA1481A19CCBE0050DA07 /* main.m */; };
+		06EEA14D1A19CCBE0050DA07 /* ATOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA14C1A19CCBE0050DA07 /* ATOAppDelegate.m */; };
+		06EEA1501A19CCBE0050DA07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06EEA14E1A19CCBE0050DA07 /* Main.storyboard */; };
+		06EEA1531A19CCBE0050DA07 /* ATOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA1521A19CCBE0050DA07 /* ATOViewController.m */; };
+		06EEA1551A19CCBE0050DA07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06EEA1541A19CCBE0050DA07 /* Images.xcassets */; };
+		06EEA15C1A19CCBE0050DA07 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA15B1A19CCBE0050DA07 /* XCTest.framework */; };
+		06EEA15D1A19CCBE0050DA07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA13C1A19CCBE0050DA07 /* Foundation.framework */; };
+		06EEA15E1A19CCBE0050DA07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EEA1401A19CCBE0050DA07 /* UIKit.framework */; };
+		06EEA1661A19CCBE0050DA07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06EEA1641A19CCBE0050DA07 /* InfoPlist.strings */; };
+		06EEA1681A19CCBE0050DA07 /* ATOSupermarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EEA1671A19CCBE0050DA07 /* ATOSupermarketTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06EEA15F1A19CCBE0050DA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06EEA1311A19CCBE0050DA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06EEA1381A19CCBE0050DA07;
+			remoteInfo = ATOSupermarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EEA1391A19CCBE0050DA07 /* ATOSupermarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATOSupermarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EEA13C1A19CCBE0050DA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		06EEA13E1A19CCBE0050DA07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		06EEA1401A19CCBE0050DA07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		06EEA1441A19CCBE0050DA07 /* ATOSupermarket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATOSupermarket-Info.plist"; sourceTree = "<group>"; };
+		06EEA1461A19CCBE0050DA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EEA1481A19CCBE0050DA07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06EEA14A1A19CCBE0050DA07 /* ATOSupermarket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATOSupermarket-Prefix.pch"; sourceTree = "<group>"; };
+		06EEA14B1A19CCBE0050DA07 /* ATOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOAppDelegate.h; sourceTree = "<group>"; };
+		06EEA14C1A19CCBE0050DA07 /* ATOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOAppDelegate.m; sourceTree = "<group>"; };
+		06EEA14F1A19CCBE0050DA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06EEA1511A19CCBE0050DA07 /* ATOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOViewController.h; sourceTree = "<group>"; };
+		06EEA1521A19CCBE0050DA07 /* ATOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOViewController.m; sourceTree = "<group>"; };
+		06EEA1541A19CCBE0050DA07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06EEA15A1A19CCBE0050DA07 /* ATOSupermarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATOSupermarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EEA15B1A19CCBE0050DA07 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		06EEA1631A19CCBE0050DA07 /* ATOSupermarketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATOSupermarketTests-Info.plist"; sourceTree = "<group>"; };
+		06EEA1651A19CCBE0050DA07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		06EEA1671A19CCBE0050DA07 /* ATOSupermarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOSupermarketTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06EEA1361A19CCBE0050DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA13F1A19CCBE0050DA07 /* CoreGraphics.framework in Frameworks */,
+				06EEA1411A19CCBE0050DA07 /* UIKit.framework in Frameworks */,
+				06EEA13D1A19CCBE0050DA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EEA1571A19CCBE0050DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA15C1A19CCBE0050DA07 /* XCTest.framework in Frameworks */,
+				06EEA15E1A19CCBE0050DA07 /* UIKit.framework in Frameworks */,
+				06EEA15D1A19CCBE0050DA07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EEA1301A19CCBE0050DA07 = {
+			isa = PBXGroup;
+			children = (
+				06EEA1421A19CCBE0050DA07 /* ATOSupermarket */,
+				06EEA1611A19CCBE0050DA07 /* ATOSupermarketTests */,
+				06EEA13B1A19CCBE0050DA07 /* Frameworks */,
+				06EEA13A1A19CCBE0050DA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06EEA13A1A19CCBE0050DA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA1391A19CCBE0050DA07 /* ATOSupermarket.app */,
+				06EEA15A1A19CCBE0050DA07 /* ATOSupermarketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06EEA13B1A19CCBE0050DA07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA13C1A19CCBE0050DA07 /* Foundation.framework */,
+				06EEA13E1A19CCBE0050DA07 /* CoreGraphics.framework */,
+				06EEA1401A19CCBE0050DA07 /* UIKit.framework */,
+				06EEA15B1A19CCBE0050DA07 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06EEA1421A19CCBE0050DA07 /* ATOSupermarket */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA14B1A19CCBE0050DA07 /* ATOAppDelegate.h */,
+				06EEA14C1A19CCBE0050DA07 /* ATOAppDelegate.m */,
+				06EEA14E1A19CCBE0050DA07 /* Main.storyboard */,
+				06EEA1511A19CCBE0050DA07 /* ATOViewController.h */,
+				06EEA1521A19CCBE0050DA07 /* ATOViewController.m */,
+				06EEA1541A19CCBE0050DA07 /* Images.xcassets */,
+				06EEA1431A19CCBE0050DA07 /* Supporting Files */,
+			);
+			path = ATOSupermarket;
+			sourceTree = "<group>";
+		};
+		06EEA1431A19CCBE0050DA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA1441A19CCBE0050DA07 /* ATOSupermarket-Info.plist */,
+				06EEA1451A19CCBE0050DA07 /* InfoPlist.strings */,
+				06EEA1481A19CCBE0050DA07 /* main.m */,
+				06EEA14A1A19CCBE0050DA07 /* ATOSupermarket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06EEA1611A19CCBE0050DA07 /* ATOSupermarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA1671A19CCBE0050DA07 /* ATOSupermarketTests.m */,
+				06EEA1621A19CCBE0050DA07 /* Supporting Files */,
+			);
+			path = ATOSupermarketTests;
+			sourceTree = "<group>";
+		};
+		06EEA1621A19CCBE0050DA07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06EEA1631A19CCBE0050DA07 /* ATOSupermarketTests-Info.plist */,
+				06EEA1641A19CCBE0050DA07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06EEA1381A19CCBE0050DA07 /* ATOSupermarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EEA16B1A19CCBE0050DA07 /* Build configuration list for PBXNativeTarget "ATOSupermarket" */;
+			buildPhases = (
+				06EEA1351A19CCBE0050DA07 /* Sources */,
+				06EEA1361A19CCBE0050DA07 /* Frameworks */,
+				06EEA1371A19CCBE0050DA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATOSupermarket;
+			productName = ATOSupermarket;
+			productReference = 06EEA1391A19CCBE0050DA07 /* ATOSupermarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06EEA1591A19CCBE0050DA07 /* ATOSupermarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06EEA16E1A19CCBE0050DA07 /* Build configuration list for PBXNativeTarget "ATOSupermarketTests" */;
+			buildPhases = (
+				06EEA1561A19CCBE0050DA07 /* Sources */,
+				06EEA1571A19CCBE0050DA07 /* Frameworks */,
+				06EEA1581A19CCBE0050DA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06EEA1601A19CCBE0050DA07 /* PBXTargetDependency */,
+			);
+			name = ATOSupermarketTests;
+			productName = ATOSupermarketTests;
+			productReference = 06EEA15A1A19CCBE0050DA07 /* ATOSupermarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06EEA1311A19CCBE0050DA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ATO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wangqt;
+				TargetAttributes = {
+					06EEA1591A19CCBE0050DA07 = {
+						TestTargetID = 06EEA1381A19CCBE0050DA07;
+					};
+				};
+			};
+			buildConfigurationList = 06EEA1341A19CCBE0050DA07 /* Build configuration list for PBXProject "ATOSupermarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06EEA1301A19CCBE0050DA07;
+			productRefGroup = 06EEA13A1A19CCBE0050DA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06EEA1381A19CCBE0050DA07 /* ATOSupermarket */,
+				06EEA1591A19CCBE0050DA07 /* ATOSupermarketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EEA1371A19CCBE0050DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA1551A19CCBE0050DA07 /* Images.xcassets in Resources */,
+				06EEA1471A19CCBE0050DA07 /* InfoPlist.strings in Resources */,
+				06EEA1501A19CCBE0050DA07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EEA1581A19CCBE0050DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA1661A19CCBE0050DA07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EEA1351A19CCBE0050DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA1531A19CCBE0050DA07 /* ATOViewController.m in Sources */,
+				06EEA1491A19CCBE0050DA07 /* main.m in Sources */,
+				06EEA14D1A19CCBE0050DA07 /* ATOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06EEA1561A19CCBE0050DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EEA1681A19CCBE0050DA07 /* ATOSupermarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06EEA1601A19CCBE0050DA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06EEA1381A19CCBE0050DA07 /* ATOSupermarket */;
+			targetProxy = 06EEA15F1A19CCBE0050DA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06EEA1451A19CCBE0050DA07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EEA1461A19CCBE0050DA07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		06EEA14E1A19CCBE0050DA07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EEA14F1A19CCBE0050DA07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06EEA1641A19CCBE0050DA07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06EEA1651A19CCBE0050DA07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06EEA1691A19CCBE0050DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06EEA16A1A19CCBE0050DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06EEA16C1A19CCBE0050DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
+				INFOPLIST_FILE = "ATOSupermarket/ATOSupermarket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		06EEA16D1A19CCBE0050DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
+				INFOPLIST_FILE = "ATOSupermarket/ATOSupermarket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		06EEA16F1A19CCBE0050DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATOSupermarket.app/ATOSupermarket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATOSupermarketTests/ATOSupermarketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		06EEA1701A19CCBE0050DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ATOSupermarket.app/ATOSupermarket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
+				INFOPLIST_FILE = "ATOSupermarketTests/ATOSupermarketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06EEA1341A19CCBE0050DA07 /* Build configuration list for PBXProject "ATOSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EEA1691A19CCBE0050DA07 /* Debug */,
+				06EEA16A1A19CCBE0050DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06EEA16B1A19CCBE0050DA07 /* Build configuration list for PBXNativeTarget "ATOSupermarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EEA16C1A19CCBE0050DA07 /* Debug */,
+				06EEA16D1A19CCBE0050DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06EEA16E1A19CCBE0050DA07 /* Build configuration list for PBXNativeTarget "ATOSupermarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06EEA16F1A19CCBE0050DA07 /* Debug */,
+				06EEA1701A19CCBE0050DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06EEA1311A19CCBE0050DA07 /* Project object */;
+}
