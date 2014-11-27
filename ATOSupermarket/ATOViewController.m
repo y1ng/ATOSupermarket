@@ -17,7 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.bgView.layer.borderColor = [UIColor redColor].CGColor;
+    self.bgView.layer.borderWidth = 0.5f;
+    
+    self.accountLabel.layer.borderWidth = 0.5f;
+    self.accountLabel.layer.borderColor = [UIColor blueColor].CGColor;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

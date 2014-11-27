@@ -79,6 +79,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CD2E271A2300B90026BA55 /* com.bielaiwam.ios.controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwam.ios.controllers;
+			sourceTree = "<group>";
+		};
+		06CD2E281A2300B90026BA55 /* com.bielaiwan.ios.model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwan.ios.model;
+			sourceTree = "<group>";
+		};
+		06CD2E291A2300B90026BA55 /* com.bielaiwan.ios.thridSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwan.ios.thridSDK;
+			sourceTree = "<group>";
+		};
+		06CD2E2A1A2300B90026BA55 /* com.bielaiwan.ios.utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwan.ios.utils;
+			sourceTree = "<group>";
+		};
+		06CD2E2B1A2300B90026BA55 /* com.bielaiwan.ios.views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwan.ios.views;
+			sourceTree = "<group>";
+		};
+		06CD2E2C1A23012F0026BA55 /* com.bielaiwan.ios.models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = com.bielaiwan.ios.models;
+			sourceTree = "<group>";
+		};
 		06EEA1301A19CCBE0050DA07 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +159,12 @@
 				06EEA14E1A19CCBE0050DA07 /* Main.storyboard */,
 				06EEA1511A19CCBE0050DA07 /* ATOViewController.h */,
 				06EEA1521A19CCBE0050DA07 /* ATOViewController.m */,
+				06CD2E2C1A23012F0026BA55 /* com.bielaiwan.ios.models */,
+				06CD2E271A2300B90026BA55 /* com.bielaiwam.ios.controllers */,
+				06CD2E281A2300B90026BA55 /* com.bielaiwan.ios.model */,
+				06CD2E291A2300B90026BA55 /* com.bielaiwan.ios.thridSDK */,
+				06CD2E2A1A2300B90026BA55 /* com.bielaiwan.ios.utils */,
+				06CD2E2B1A2300B90026BA55 /* com.bielaiwan.ios.views */,
 				06EEA1541A19CCBE0050DA07 /* Images.xcassets */,
 				06EEA1431A19CCBE0050DA07 /* Supporting Files */,
 			);
@@ -200,6 +248,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = wangqt;
 				TargetAttributes = {
+					06EEA1381A19CCBE0050DA07 = {
+						DevelopmentTeam = TP92EKCZQQ;
+					};
 					06EEA1591A19CCBE0050DA07 = {
 						TestTargetID = 06EEA1381A19CCBE0050DA07;
 					};
@@ -377,9 +428,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
 				INFOPLIST_FILE = "ATOSupermarket/ATOSupermarket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ATOSupermarket/ATOSupermarket-Prefix.pch";
 				INFOPLIST_FILE = "ATOSupermarket/ATOSupermarket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +512,7 @@
 				06EEA16D1A19CCBE0050DA07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06EEA16E1A19CCBE0050DA07 /* Build configuration list for PBXNativeTarget "ATOSupermarketTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +521,7 @@
 				06EEA1701A19CCBE0050DA07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
